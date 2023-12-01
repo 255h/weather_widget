@@ -5,6 +5,17 @@
 
 */
 
+
+
+
+
+	  var widget_ctrl;
+	  const setup = ()=>{
+	   widget_ctrl = new controller(document);
+	   widget_ctrl.initialize();
+	  }
+	  window.addEventListener('load', setup);
+
 class controller{
 	
 	constructor()
