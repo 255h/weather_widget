@@ -3,42 +3,44 @@
   position: fixed;
   top: 50px;
   right: 50px;
-  width: 580px;
-  height: 120px;
-background: rgba(255, 255, 255, 0.04);
-border-radius: 16px;
-box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-backdrop-filter: blur(14px);
--webkit-backdrop-filter: blur(14px);
-border: 1px solid rgba(255, 255, 255, 0.12);
+  width: 690px;
+  height: 110px;
+  background: rgba(255, 255, 255, 0.04);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
   justify-content: center;
   display: flex;
 }
 
 .content {
    position: relative;
-
-   margin-left: 8px;
+   margin-left: 10px;
+   margin-right: 10px;
    width: 80px;
    height: 100px;
 }
 
 .symbol{
-	
+	width: 80px;
 	font-size:64px;
-	background: linear-gradient(to right, #A7CFDF 0%, #23538A 100%);
-
+	background: linear-gradient(to right, #A7CFDFAA 0%, #23538AAA 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 	text-align: center;
 	vertical-align: middle;
 }
 .caption{
+	width: 80px;
 	position: fixed;
-	font-size:16px;
+	font-size:14px;
 	background: #A7CFDF;
 	-webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-	bottom: 20%;
+	bottom: 15%;
+	text-align: center;
+	vertical-align: middle;
 
 }
